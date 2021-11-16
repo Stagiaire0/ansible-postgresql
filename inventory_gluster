@@ -1,5 +1,5 @@
 [leader]
 leader01 ansible_host=172.81.177.191 ansible_ssh_user=centos ansible_ssh_private_key=/home/centos/.ssh/id_rsa
-[slave]
+[slaves]
 slave01 ansible_host=172.16.0.7 ansible_ssh_user=centos ansible_ssh_private_key=/home/centos/.ssh/id_rsa
 slave02 ansible_host=172.16.0.8 ansible_ssh_user=centos ansible_ssh_private_key=/home/centos/.ssh/id_rsa
